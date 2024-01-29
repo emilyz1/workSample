@@ -1,0 +1,13 @@
+To implement:
+-Set this screen as the opening screen for the game
+
+-If a user clicks within the range of the button, move to the correct game (2D or 3D)
+	-Probably can just set a range with coordinates for the top left of the square to the bottom right of the square as a clickable range
+
+-3D Title Screen assets are in charizard/3D_Models/title_screen_3d
+	-Home screen should be the title screen for 3D, should be a choice between playing or looking at your current stats
+	-Select mode is to choose between online and multiplayer
+	-They are all included as seperate assets in order to make them clickable seperately
+	-Should only need to shift the 3D title screen to the origin one time because it isnt constantly regenerated or regenerated randomly
+
+-There is no title screen for 2D yet so either just send it straight to a game or leave it blank
